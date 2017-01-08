@@ -1,0 +1,22 @@
+- die Waende muessen in Unity immer etwas ineinander gehen, ansonsten kommt manchmal ein wenig Licht durch die Ritzen
+	-> Vertex-Snapping in Unity reicht nicht aus
+
+- Wenn Lichter ein wenig durch die Waende hindurch leuchten -> Waende dicker machen
+
+///////////////////////////
+IDEEN
+///////////////////////////
+- schwarzes Loch (verschlucken, ablenken von Licht)
+- Spiegel/-waende
+- Waende die teilweise Licht durchlassen -> mehrere Lichter draufleuchten um weiter durchzustrahlen
+- als Ziel: nur bestimmte Waende beleuchten
+- unterschiedliche Arten von Lichtern: 360 Grad lichter, Spotlights (einstellbar wie weit/welcher winkel, welche Richtung)
+- verschiede Ecken blockieren (keine Lichter erlauben)
+- Ziel: Waende muessen mehrfach beleuchtet werden (dann andere Farbe fuer Kante)
+
+///////////////////////////
+TODO
+///////////////////////////
+- Bei Wand anzeigen welcher Teil bereits beleuchtet wurde
+- WallController nicht auf jedem PipeElement
+- Vektoren fuer Waende verwenden, statt einzelnen Sections
